@@ -60,6 +60,8 @@ MOAI 2020 Body Morphometry AI Segmentation Online Challenge는 원광대학교�
 
 ### CNN Network
 
+-> Image자리
+
 - model : ResNet-34 based U-Net structure CNN
 - Input size : 512 X 512 X 3
 - Loss Function : 0.5 * Generalized Dice Loss + 0.5 * Weighted Cross Entropy
@@ -67,4 +69,13 @@ MOAI 2020 Body Morphometry AI Segmentation Online Challenge는 원광대학교�
 - Learning Rate : 3e-4
 - The Number of traing epochs : 20
 - Optimization method : Adam 
+
+
+
+### Post-processing
+
+- Hole Filling
+- Connected component
+
+
 
