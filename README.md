@@ -60,7 +60,8 @@ MOAI 2020 Body Morphometry AI Segmentation Online Challenge는 원광대학교�
 
 ### CNN Network
 
--> Image자리
+![](https://github.com/hwanseung2/Asan-segmentation/blob/main/img/img1.png)
+![](https://github.com/hwanseung2/Asan-segmentation/blob/main/img/img2.png)
 
 - model : ResNet-34 based U-Net structure CNN
 - Input size : 512 X 512 X 3
