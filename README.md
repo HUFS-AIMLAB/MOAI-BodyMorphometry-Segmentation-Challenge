@@ -1,6 +1,6 @@
 ## MOAI 2020 Body Morphometry AI Segmentation Online Challenge
 
-Final Ranking : **1st** / 9 teams
+Final Ranking : **1st** / 20 teams
 
 
 
