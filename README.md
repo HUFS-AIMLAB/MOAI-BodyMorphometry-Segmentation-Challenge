@@ -47,13 +47,16 @@ Consists of CT data in DCM format and Label data in PNG format.
 
 ## Results
 
-<div align="center">
-  Input            |   Output
-  :---------------:|:------------------:
-  <img src="./img/ct1.png" width="224"> | <img src="./img/lb1.png" width="224">
-  <img src="./img/ct2.png" width="224"> | <img src="./img/lb2.png" width="224">
-  <img src="./img/ct3.png" width="224"> | <img src="./img/lb3.png" width="224">
-</div>
+<p align="center">
+
+  |  Input         |   Output          |
+  |:--------------:|:-----------------:|
+  |<img src="./img/ct1.png" width="224"> | <img src="./img/lb1.png" width="224">|
+  |<img src="./img/ct2.png" width="224"> | <img src="./img/lb2.png" width="224">|
+  |<img src="./img/ct3.png" width="224"> | <img src="./img/lb3.png" width="224">|
+
+</p>
+
 
 ## Dependencies
 - fastai 1.0.61
