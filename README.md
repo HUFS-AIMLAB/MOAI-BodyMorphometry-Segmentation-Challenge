@@ -29,8 +29,10 @@ Consists of CT data in DCM format and Label data in PNG format.
 
 ## Method
 ### Pre-processing
-- Add 4900 CT images manipulated with random windowing values (window width: 500-1000, level value:-250-250)
-- Apply random augmentations (random flipping, rotation, zooming, wrapping, random noise)
+- Add 4900 CT images manipulated with random windowing values  
+  (window width: 500-1000, level value:-250-250)
+- Apply random augmentations  
+(random flipping, rotation, zooming, wrapping, random noise)
 
 ### CNN Network
 - model : U-net with a pre-trained Resnet34 as encoder
