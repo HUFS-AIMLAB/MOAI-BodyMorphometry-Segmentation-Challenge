@@ -11,6 +11,7 @@ from tqdm import tqdm
 def parse_args():
     parser = argparse.ArgumentParser(description = 'MOAI 2020 Body Morphology Segmentation Data Pre-Processing')
     parser.add_argument('--base_dir', type = str, default = '../input/body-morphometry-for-sarcopenia', help = 'Challenge Data base path')
+    parser.add_argument('--save_dir', type = str, default = '../input/body-morphometry-for-sarcopenia', help = 'Challenge Data base path')
     return parser.parse_args()
 
 def Window_image(image, window_center, window_width): #윈도윙 해주기
@@ -71,24 +72,24 @@ def main(args):
     test_img = sorted(glob.glob(args.base_dir + '/test/DICOM/*.dcm'))
     img_folder_name = 'img(random)_10000_3ch'
     try:
-        os.mkdir(f'./{img_folder_name}')
+        os.mkdir(f'{args.save_dir}/{img_folder_name}')
     except:
         pass
-    img_png_path = f'./{img_folder_name}'
+    img_png_path = f'{args.save_dir}/{img_folder_name}'
 
     gt_folder_name = 'gt(random)_10000_3ch'
     try:
-        os.mkdir(f'./{gt_folder_name}')
+        os.mkdir(f'{args.save_dir}/{gt_folder_name}')
     except:
         pass
-    gt_png_path = f'./{gt_folder_name}'
+    gt_png_path = f'{args.save_dir}/{gt_folder_name}'
     
     test_folder_name = 'test(random)_10000'
     try:
-        os.mkdir(f'./{test_folder_name}')
+        os.mkdir(f'{args.save_dir}/{test_folder_name}')
     except:
         pass
-    test_png_path = f'./{test_folder_name}'
+    test_png_path = f'{args.save_dir}/{test_folder_name}'
     
     Make_train_data(train_img, train_label, img_png_path, gt_png_path)
     Make_test_data(test_img, test_png_path)
