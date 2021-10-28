@@ -47,7 +47,7 @@ Consists of CT data in DCM format and Label data in PNG format.
 
 ## Results
 
-<p align="center">
+<div align="center">
 
   |  Input         |   Output          |
   |:--------------:|:-----------------:|
@@ -55,7 +55,7 @@ Consists of CT data in DCM format and Label data in PNG format.
   |<img src="./img/ct2.png" width="224"> | <img src="./img/lb2.png" width="224">|
   |<img src="./img/ct3.png" width="224"> | <img src="./img/lb3.png" width="224">|
 
-</p>
+</div>
 
 
 ## Dependencies
