@@ -1,5 +1,5 @@
 <h1 align="center">
-    <p>MOAI 2020 Body Morphometry Segmentation Challenge</p>
+    <p>MOAI Body Morphometry Segmentation Challenge</p>
 </h1>
 
 1st place solution for [MOAI 2020 Body Morphometry AI Segmentation Online Challenge.](https://www.kaggle.com/c/body-morphometry-for-sarcopenia/overview)
