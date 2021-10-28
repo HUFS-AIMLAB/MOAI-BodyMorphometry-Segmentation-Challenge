@@ -1,4 +1,4 @@
-# MOAI 2020 Body Morphometry AI Segmentation Online Challenge
+# MOAI 2020 Body Morphometry Segmentation Challenge
 
 1st place solution for [MOAI 2020 Body Morphometry AI Segmentation Online Challenge.](https://www.kaggle.com/c/body-morphometry-for-sarcopenia/overview)
 
