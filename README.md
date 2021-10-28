@@ -2,12 +2,12 @@
 
 1st place solution for [MOAI 2020 Body Morphometry AI Segmentation Online Challenge.](https://www.kaggle.com/c/body-morphometry-for-sarcopenia/overview)
 
-In this work, we present our **1st**place solution for MOAI 2020 Body Morphometry AI Segmentation Online Challenge. Our approach is based on U-net with a pre-trained Resnet34 as encoder.
+In this work, we present our **1st** place solution for MOAI 2020 Body Morphometry AI Segmentation Online Challenge. Our approach is based on U-net with a pre-trained Resnet34 as encoder.
 To achieve better results we applied data-specific pre-processing and post-processing.
 
 
 Team Members:  
-Dayoung Baik, Hyebin Lee, Hwanseung Yoo, Junghwa Kang, Seungun Jang
+**Dayoung Baik, Hyebin Lee, Hwanseung Yoo, Junghwa Kang, Seungun Jang**
 
 ## Objective
 
