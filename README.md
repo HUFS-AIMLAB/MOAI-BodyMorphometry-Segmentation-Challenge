@@ -2,7 +2,7 @@
 
 1st place solution for [MOAI 2020 Body Morphometry AI Segmentation Online Challenge.](https://www.kaggle.com/c/body-morphometry-for-sarcopenia/overview)
 
-In this work, we present our **1st** solution for MOAI 2020 Body Morphometry AI Segmentation Online Challenge. Our approach is based on U-net with a pre-trained Resnet34 as encoder.
+In this work, we present our **1st**place solution for MOAI 2020 Body Morphometry AI Segmentation Online Challenge. Our approach is based on U-net with a pre-trained Resnet34 as encoder.
 To achieve better results we applied data-specific pre-processing and post-processing.
 
 
@@ -14,17 +14,19 @@ Dayoung Baik, Hyebin Lee, Hwanseung Yoo, Junghwa Kang, Seungun Jang
  Body morphometry-related diseases have the highest prevalence among all diseases. Particularly, changes in muscle, fat, and bone are the cause of many disease. So, the task of this challenge was to segment the subcutaneous fat, skeletal muscle, and visceral fat for the L3 slice of CT. (L3 slice is often used to evaluate the body composition.)
 
 
-<center>
+<div align="center">
   <img src="./img/img1.png" width="448">
-</center>
+</div>
 
 
 ## Data  
 Consists of CT data in DCM format and Label data in PNG format. 
 
-<center>
+<div align="center">
   <img src="./img/img2.png" width="448">
-</center>
+</div>
+
+
 ## Method
 ### Pre-processing
 - Add 4900 CT images manipulated with random windowing values (window width: 500-1000, level value:-250-250)
@@ -44,11 +46,14 @@ Consists of CT data in DCM format and Label data in PNG format.
 - Utilize connected component to remove small objects
 
 ## Results
+
+<div align="center">
   Input            |   Output
   :---------------:|:------------------:
   <img src="./img/ct1.png" width="224"> | <img src="./img/lb1.png" width="224">
   <img src="./img/ct2.png" width="224"> | <img src="./img/lb2.png" width="224">
   <img src="./img/ct3.png" width="224"> | <img src="./img/lb3.png" width="224">
+</div>
 
 ## Dependencies
 - fastai 1.0.61
