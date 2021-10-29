@@ -82,11 +82,11 @@ Consists of CT data in DCM format and Label data in PNG format.
 
 3. Training  
 
-    - Run ./src/train.ipynb
+    - Run `./src/train.ipynb`
 
 4. Inference  
 
-    - Run ./src/inference.ipynb
+    - Run `./src/inference.ipynb`
 
 ## License  
 This repository is licensed under the MIT License
