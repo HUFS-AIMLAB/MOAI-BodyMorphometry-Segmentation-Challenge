@@ -1,7 +1,7 @@
 <h1 align="center">
     <p>MOAI Body Morphometry Segmentation Challenge</p>
 </h1>
-
+<img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=flat-square&logo=Pytorch&logoColor=white">  
 1st place solution for [MOAI 2020 Body Morphometry AI Segmentation Online Challenge.](https://www.kaggle.com/c/body-morphometry-for-sarcopenia/overview)
 
 In this work, we present our **1st** place solution for MOAI 2020 Body Morphometry AI Segmentation Online Challenge. Our approach is based on U-net with a pre-trained Resnet34 as encoder.
